@@ -1,0 +1,53 @@
+body {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1,h2,h3, .gugi-font {
+    font-family: "Gowun Batang", serif;
+   
+}
+
+/* 네비게이션영역 */
+.nav-link:hover,
+.nav-link.active {
+    color:#9BABBF !important;
+}
+
+
+/* 헤더영역 */
+header{
+    background-image:linear-gradient(to top, #F2EEEB,
+                     rgb(0,0,0,.2)), url(images/겨울배경1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#hometitle{
+    margin-left: 100px;
+}
+
+.highlight {
+    background-color: #BFCDD9;
+    display: inline;
+    padding: 0 5px; 
+    border-radius: 50px; 
+}
+
+/* 신제품영역 */
+.card-hover:hover {
+    background-color:#9BABBF}
+
+.card1-hover:hover {
+        background-color:#ebe3e7;
+}
+
+.card2-hover:hover {
+    background-color:rgba(255, 140, 0, 0.216);
+}
+.card-body {
+    background-color: rgb(255, 255, 255);
+}
